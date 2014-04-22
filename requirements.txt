@@ -1,7 +1,4 @@
 oursql
-python-gpgme
 twisted
 wokkel
 demjson
-pygnutls
-libpynexmo
