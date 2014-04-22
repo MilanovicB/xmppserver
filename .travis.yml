@@ -6,4 +6,4 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install python-gpgme
   - git clone https://git.gitorious.org/pygnutls/pygnutls.git
-  - cd pygnutls && ./configure --prefix=/usr && make && make install
+  - cd pygnutls && python setup.py install
